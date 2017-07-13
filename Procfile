@@ -1,2 +1,2 @@
-worker: python tweetbot.py
+worker: python example.py
 web: gunicorn main_app:app --log-file -
